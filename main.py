@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 import uvicorn
-from api.api import app 
+from app.api.api import app 
 
 
 

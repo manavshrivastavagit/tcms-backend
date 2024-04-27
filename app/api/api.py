@@ -115,7 +115,7 @@ cursor.execute('''
 #        (2, 'Gold180', 75.00, 180, 'Active'),
 #        (3, 'Silver90', 35.00, 90, 'Inactive')
 # ''')
-
+ 
 close_db_connection(sqlite_connection)
 
 @app.get("/plans")
